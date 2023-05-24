@@ -13,7 +13,7 @@ import mplfinance as mpf
 
 from hmmlearn.hmm import GaussianHMM
 
-#load data between start and end date
+#load data between start and end dated
 start_date = datetime.date(1995, 10, 10)
 end_date = datetime.date(2015, 4, 25)
 quotes = quotes_historical_yahoo_och1('INTC', start_date, end_date)
